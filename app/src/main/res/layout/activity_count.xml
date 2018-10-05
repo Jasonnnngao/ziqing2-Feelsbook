@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/love"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="32dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/joy"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="32dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/surprise"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="32dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/anger"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="32dp"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/sadness"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="32dp"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/fear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="32dp"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="FeelingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/feels">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_love"
+            android:text="love"
+
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_joy"
+            android:text="joy"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_fear"
+            android:text="fear"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_anger"
+            android:text="anger"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_surprise"
+            android:text="surprise"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_sadness"
+            android:text="sadness"
+            />
+    </LinearLayout>
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Date"
+            android:focusable="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:hint="Leave some comment here..."
+            android:gravity="start"
+            android:id="@+id/ed_comment"
+            android:ems="10"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/colorAccent"
+        android:onClick="onDeleteClicked"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="onConfirmClicked"
+        android:text="Confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
